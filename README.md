@@ -1,1 +1,1 @@
-Open in browser kraspell.github.io/lastfm_api
+<a href="kraspell.github.io/lastfm_api">Open in browser </a>
