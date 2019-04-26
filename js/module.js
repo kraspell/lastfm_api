@@ -69,7 +69,7 @@ function getInfo(artist_name) {
 	var sim_art = "";
 
 	$.ajax({
-	    	url: `http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=${artist_name}&api_key=${API_KEY}&format=json`,
+	    	url: `https://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=${artist_name}&api_key=${API_KEY}&format=json`,
 	    	success: function(data){
 	    		$(".modal-title").append('<img src="' + data.artist.image[2]["#text"] + '">' + '<h5>' + artist_name + '</h5>');
 	    		for(var i = 0; i < data.artist.tags.tag.length; i++){
