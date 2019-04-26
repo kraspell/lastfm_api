@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<link href="library/Bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="main">
+<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+		<li class="nav-item">
+		<a class="nav-link active" id="pills-search-tab" data-toggle="pill" href="#pills-search" role="tab" aria-controls="pills-search" aria-selected="true">Поиск</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" id="pills-top-tab" data-toggle="pill" href="#pills-top" role="tab" aria-controls="pills-top" aria-selected="false">ТОП-50</a>
+		</li>
+</ul>
+</div>
+
+<div class="tab-content" id="pills-tabContent">
+<div class="tab-pane fade show active" id="pills-search" role="tabpanel" aria-labelledby="pills-search-tab">
+	<div class="input-group">
+	<input type="text" id="input_request" class="border_cls form-control" aria-describedby="basic-addon2" placeholder="Поиск">
+		<div class="input-group-append">
+	  		<select class="border_cls custom-select" id="inputGroupSelect01">
+			    <option value="1" selected>Артист</option>
+			    <option value="2">Альбом</option>
+			    <option value="3">Трэк</option>
+			</select>
+	    	<button id="search" class="border_cls btn btn-outline-secondary" type="button">Поиск</button>
+		</div>
+	</div>
+	<div class="output-group">
+		<ul id="output_list"></ul>
+	</div>
+</div>
+
+<div class="tab-pane fade" id="pills-top" role="tabpanel" aria-labelledby="pills-top-tab">
+	<div class="input-top">
+	  	<div class="btn-group" role="group" aria-label="Basic example">
+		  <button id="topArtist" type="button" class="btn btn-outline-secondary">Топ артистов</button>
+		  <button id="topTrack" type="button" class="btn btn-outline-secondary">Топ трэков</button>
+		</div>	
+	</div>
+	<div class="output-group">
+		<ul id="output_list_top"></ul>
+	</div>
+</div>
+
+</div>
+
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+	    <!-- Modal content-->
+	    <div class="modal-content">
+	    	<div class="modal-header">
+	    		<div class="modal-title"></div>
+	        	<button style="color:white;" type="button" class="close" data-dismiss="modal">&times;</button>
+	        </div>
+	    <div class="modal-body">
+	    </div>
+	    <div class="modal-footer"></div>
+	    </div>
+    </div>
+</div>
+
+<script src="library/jQuery/jquery-2.2.4.min.js"></script>
+<script src="library/Bootstrap/bootstrap.min.js"></script>	
+<script src="js/main.js"></script>
+<script src="js/module.js"></script>
+</body>
+
+</html>
