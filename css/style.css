@@ -1,0 +1,224 @@
+body{
+	margin: 0;
+	background-color: black;
+}
+
+.border_cls{
+	border-radius: 0px;
+}
+
+.main{
+    margin: 0 auto;
+}
+
+.output-group{
+	margin-top: 30px;
+	padding: 0px 150px 0px 150px;
+    background-color: inherit;
+}
+
+.input-top{
+	text-align: center;
+}
+
+.input-group{
+	padding: 0px 150px 0px 150px;
+    background-color: inherit;
+}
+
+#output_list li{
+	list-style: none;
+	height: 174px;
+}
+
+#output_list_top li{
+	list-style: none;
+	height: 174px;
+}
+
+img{
+	float: left;
+	margin: 0px 15px 0px 0px;
+}
+
+h2{
+	font-family: fantasy;
+	font-size: 1.4rem;
+    color: coral;
+}
+
+h3{
+	font-size: 25px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #403f3f;
+    float: left;
+    padding: 72px 10px 72px 0px;
+    width: 40px;
+    text-align: right;
+}
+
+a{
+	color: #747474;
+}
+
+a:hover{
+	color: #bfbfbf;
+    text-decoration: none;
+}
+
+#output_list p{
+	display: inline;
+    color: #c7c7c7;
+    font-weight: 500;
+}
+
+#output_list_top p{
+	display: inline;
+    color: #c7c7c7;
+    font-weight: 500;
+}
+
+#search{
+	border-radius: 0px 15px 15px 0px;
+}
+
+#input_request{
+	border-radius: 15px 0px 0px 15px;
+	background: black;
+    border-color: #464646;
+    color: white;
+    box-shadow: none;
+
+}
+
+#search{
+	box-shadow: none;	
+	border: 1px solid #464646;
+}
+
+#inputGroupSelect01{
+	border-color: #464646;
+    background-color: black;
+}
+
+.main ul li a{
+	font-size: large;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #000000;
+}
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #232323;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #333333;
+}
+
+::-webkit-scrollbar-track{
+    border-width:0;
+    background-color: #131313;
+}
+
+::-webkit-scrollbar-track:hover{
+    background-color: #131313;
+}
+
+hr{
+	border-top: 1px solid rgb(25, 25, 25);
+}
+
+button{
+	border: 1px solid #464646ad;
+    background-color: transparent;
+    color: #626262;
+    border-radius: 15px;
+    padding: 2px 10px 2px 10px;
+}
+
+#aboutArtist{
+	text-align: right;
+	margin-top: 62px;
+}
+
+#aboutArtist button{
+	outline: none;
+}
+
+#aboutArtist button:hover{
+	background-color: #1b1b1bc4;
+    color: #8e8e8e;
+}
+
+#aboutArtist button:active{
+	background-color: #222222;
+    color: #8e8e8e;
+}
+
+.modal-content{
+	background-color: #525252cf;
+}
+
+.modal-header{
+	border-bottom: none;
+}
+
+.modal-body p{
+	color: #fff;
+	margin-top: 15px;
+}
+
+.modal-title{
+	color: #ececec;
+	width: 100%;
+}
+
+.modal-title img{
+	border-radius: 100px;
+    float: left;
+    width: 130px;
+}
+
+.modal-title h5{
+	margin-top: 47px;
+    font-size: 30px;
+}
+
+.tags{
+	float: left;
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 2px 7px 2px 7px;
+    margin: 2px 5px 2px 0px;
+    color: #c5c5c5;
+}
+
+.tags:hover{
+	color: #fff;
+}
+
+.modal-footer p{
+	color: #d1d1d1;
+    margin: 0;
+	width: 100%;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.modal-footer{
+	border: none;
+	display: block;
+}
+
+/*TOP TRACK
+
+linear-gradient(#de3434,#67265c)*/
